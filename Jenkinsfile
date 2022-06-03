@@ -18,7 +18,7 @@ pipeline {
                             ),
                             string(
                                 defaultValue: 'scriptcrunch', 
-                                name: 'STRING-PARAMETER', 
+                                name: 'STRING', 
                                 trim: true
                             )
                         ])
@@ -33,7 +33,7 @@ pipeline {
                     }
                 }
 
-                println("Hello ${params.PARAMETER_01}")
+                println("Hello ${params.STRING}")
 
                 println("Hello world")
             }
