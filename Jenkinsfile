@@ -33,7 +33,7 @@ pipeline {
                     }
                 }
 
-                println("Hello ${params.STRING-PARAMETER}")
+                println("Hello ${params.PARAMETER_01}")
 
                 println("Hello world")
             }
